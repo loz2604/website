@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+
+.heading{
+    padding:20px;
+    height:fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin:50px;
+    background-color:whitesmoke;
+    border:2px solid black;
+    
+    
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Rampart One', cursive;
+    color: black;
+    /* width:fit-content; */
+    /* border:2px solid black; */
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.logo{
+    width:120px;
+    /* border: black solid 2px; */
+    height:fit-content;
+    justify-content: center;
+    align-self: center;
+    padding:10px;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+.logo:hover {
+    animation-name: rubberBand;
+  }
+  
+  
+  @keyframes rubberBand {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, .95, 1);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+  }
+
+p {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#navbar{
+    background-color: whitesmoke;
+    padding:20px;
+    margin:50px;
+    border: solid black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.button1{
+    /* color: black;
+    font-family: monospace; */
+    color: rgb(46, 45, 45);
+    outline: none;
+    font-weight: 800;
+    font-size: large;
+    font-family: monospace;
+    text-decoration:none;
+    letter-spacing: 0.25em;
+    width:200px;
+    height:80px;
+    text-shadow: 2px 2px 12px;
+    background-image: linear-gradient(90deg,rgb(189, 189, 253),rgb(204, 140, 250),violet);
+    
+
+    /* ---------this rounds the edges of the button------ */
+    border-radius: 20em;
+    /* background-color: #1d1e24; */
+}
+.button2{
+
+    /* font-family: monospace; */
+    color: rgb(46, 45, 45);
+    outline: none;
+    font-weight: 800;
+    font-size: large;
+    font-family: monospace;
+    text-decoration:none;
+    letter-spacing: 0.25em;
+    width:200px;
+    height:80px;
+    text-shadow: 2px 2px 12px;
+    background-image: linear-gradient(90deg,rgb(127, 250, 127),rgb(87, 253, 71),rgb(134, 219, 138));
+    border-radius: 20em;
+}
+.button3{
+
+    /* font-family: monospace; */
+    color: rgb(46, 45, 45);
+    outline: none;
+    font-weight: 800;
+    font-size: large;
+    font-family: monospace;
+    text-decoration:none;
+    letter-spacing: 0.25em;
+    width:200px;
+    height:80px;
+    text-shadow: 2px 2px 12px;
+    background-image: linear-gradient(90deg,rgb(255, 6, 6),rgb(250, 140, 140),rgb(252, 70, 46));
+    border-radius: 20em;
+}
+.favourites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.favFoods{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:2px solid black;
+    padding:10px;
+    width:25%;
+    background-color:whitesmoke;
+    margin-left: 50px;
+}
+.favFoods ul {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.favHobbies{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:2px solid black;
+    padding:10px;
+    width:25%;
+    background-color:whitesmoke;
+
+}
+
+.favHobbies ol{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.favGames{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:2px solid black;
+    padding:10px;
+    width:25%;
+    background-color:whitesmoke;
+    margin-right: 50px;
+
+}
+
+.favGames ul{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.codeNation{
+    margin: 50px;
+    padding:20px;
+    background-color:whitesmoke;
+    border:2px solid black;
+}
+
+.week1Targets{
+    background-color:whitesmoke;
+    border:2px solid black;
+    margin: 50px;
+    padding:20px;
+}
+#target{
+    font-weight: bold;
+}
+
+.editableContent{
+    margin-right:50px;
+    margin-left: 50px;
+    padding: 20px;
+    border:solid black 2px;
+    background-color:whitesmoke;
+}
+.formSection{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 50%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top:50px;
+    padding:50px;
+    border: solid black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:whitesmoke;
+
+
+}
+
+.radioButtons{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+}
+
+.formButtons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px ;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.resetButton{
+    font-family: monospace;
+    color: rgb(46, 45, 45);
+    outline: none;
+    font-weight: 800;
+    font-size: large;
+    font-family: monospace;
+    text-decoration:none;
+    letter-spacing: 0.25em;
+    width:100px;
+    height:50px;
+    text-shadow: 2px 2px 12px;
+    background-image: linear-gradient(90deg,rgb(168, 139, 248),rgb(132, 119, 252),rgb(128, 93, 226));
+    border-radius: 20em;
+}
+
+
+.submitButton{
+    font-family: monospace;
+    color: rgb(46, 45, 45);
+    outline: none;
+    font-weight: 800;
+    font-size: large;
+    font-family: monospace;
+    text-decoration:none;
+    letter-spacing: 0.25em;
+    width:100px;
+    height:50px;
+    text-shadow: 2px 2px 12px;
+    background-image: linear-gradient(90deg,rgb(139, 241, 248),rgb(132, 119, 252),rgb(128, 93, 226));
+    border-radius: 20em;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+button{
+    border-radius: 2em;
+    padding: 15px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+button:hover{
+    opacity:80%;
+
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.1); 
+}
+
+@media all and (max-width:800px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+    li{
+        font-size: 18px;
+    }
+    .button1{
+        font-size: medium;
+        width:150px;
+        height:60px;
+    }
+    .button2{
+        font-size: medium;
+        width:150px;
+        height:60px;
+    }
+    .button3{
+        font-size: medium;
+        width:150px;
+        height:60px;
+}
+form{
+    font-size: 18px;
+}
+.resetButton{
+    width:90px;
+    height:45px;
+    font-size:medium;
+}
+.submitButton{
+    width:90px;
+    height:45px;
+    font-size:medium;
+}
+
+}
+
+@media all and (max-width:600px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    li{
+        font-size: 16px;
+    }
+    .button1{
+        font-size: smaller;
+        width:120px;
+        height:60px;
+    }
+    .button2{
+        font-size:smaller;
+        width:120px;
+        height:60px;
+    }
+    .button3{
+        font-size: smaller;
+        width:120px;
+        height:60px;
+}
+form{
+    font-size: 16px;
+}
+.resetButton{
+    width:80px;
+    height:40px;
+    font-size:medium;
+}
+.submitButton{
+    width:80px;
+    height:40px;
+    font-size:medium;
+}
+
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A Little Bit About Me</title>
+    <!-- --------- Following line links this page to css style sheet -------- -->
+    <link rel="stylesheet" href="week2/styles/index.css">
+    <link rel="pool" href="pool.html">
+
+    <!-- -------- Following line links page to the icon ------->
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2020/08/22/21/55/computer-5509452_1280.png">
+
+    <link rel="background" href="week2/images/background.jpg">
+    <!-- Following line imports stylesheet for the eye with password -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body background="week2/images/background.jpg">
+    <div class="heading">
+        <h1>A Little Bit About Me...</h1>
+        <div class="logo"><img src="https://cdn.pixabay.com/photo/2020/08/22/21/55/computer-5509452_1280.png"
+                alt="Computer" width="120" height="100">
+        </div>
+    </div>
+    <div id="navbar">
+        <div>
+            <button type="button1" class="button1"><a href="enterTheGungeon.html">Enter The Gungeon</a></button>
+        </div>
+        <div>
+            <button type="button2" class="button2"><a href="pool.html" target="_blank">Pool</a></button>
+        </div>
+        <div>
+            <button type="button3" class="button3"><a href="manchesterUnited.html">Manchester United</a></button>
+        </div>
+
+    </div>
+
+    <div class="favourites">
+        <div class="favFoods">
+            <h2>My Favourite Foods</h2>
+            <ul>
+                <li>Cheese</li>
+                <li>Salmon</li>
+                <li>Brocolli</li>
+                <li>Spinach</li>
+            </ul>
+        </div>
+        <div class="favHobbies">
+            <h2>My Favourite Hobbies</h2>
+            <ol>
+                <li>Football - Manchester United</li>
+                <li>Crochet</li>
+                <li>Fishing</li>
+                <li>Playing Pool</li>
+            </ol>
+        </div>
+        <div class="favGames">
+            <h2>My Favourite Games</h2>
+            <ul>
+                <li>Enter The Gungeon</li>
+                <li>Exit The Gungeon</li>
+                <li>Mortal Kombat</li>
+                <li>Fallout 4</li>
+            </ul>
+        </div>
+    </div>
+    <div class="codeNation">
+        <h2>My Interest In CodeNation</h2>
+        <p>When I was young, me and my brother would buy computer magazines with our spends. We would spend weekends
+            inputting code from the magazine into our ZX Spectrum in order to play a game. Sometimes it would work,
+            other times it wouldn't and we would have to start all over again! It was my love of solving puzzles that
+            made me want to try my hand at coding again. </p>
+    </div>
+    <div class="week1Targets">
+        <h2>My Week 1 Targets</h2>
+        <p id="target">• To improve my understanding and confidence with using Javascript:-</p>
+        <p>I have completed all but one of the activities, and my aim is to finish them all.</p>
+        <p>I have been trying activities on Code Wars and am going to continue doing this.</p>
+        <p id="target">• To get to know my colleagues more, and for them to get to know me:-</p>
+        <p>I have made attempts to start conversations. I will try and do this more often.</p>
+    </div>
+    <div class="editableContent" contentEditable="true" spellcheck="true">
+        <p>Here is where you can edit some text and input your thoughts.</p>
+    </div>
+    <div class="formSection">
+        <form>
+            <label id="target" for="Username">Username</label>
+            <input type="text" id="Username" placeholder="Enter Username...">
+
+            <label id="target" for="Password">Password (8 characters minimum)</label>
+            <input type="password" id="password" placeholder="Enter Password..." minlength="8" required>
+            <!-- Following code for the eye -->
+            <!-- <i class="far fa-eye" id="togglePassword"></i> -->
+
+
+            <label id="target" for="Email">Email</label>
+            <input type="text" id="email address" placeholder="Enter Email Address...">
+            <p id="target">Please select your course</p>
+            <div class="radioButtons">
+                <label for="Master Coding">Master Coding</label>
+                <input type="radio" id="Master Coding" name="Master Course" value="Master Coding">
+
+                <label for="Master Cyber">Master Cyber</label>
+                <input type="radio" id="Master Cyber" name="Master Course" value="Master Cyber">
+            </div>
+
+            <div class="formButtons">
+                <div>
+                    <input type="reset" value="Reset" class="resetButton grow">
+                </div>
+                <div>
+                    <input type="submit" value="Submit" class="submitButton grow">
+                </div>
+            </div>
+    </div>
+    <!-- <input type="date"> -->
+
+    </form>
+    <div class="footer">
+        <button type="button" class="grow">
+            <p><a href="https://wearecodenation.com/" target="_blank">Visit CodeNation</a></p>
+        </button>
+        <button type="button" class="grow">
+            <p><a href="https://worldofspectrum.org/" target="_blank">Visit World Of Spectrum</a></p>
+        </button>
+        <!-- <button type="button" disabled>
+            Please Click Me!
+        </button> -->
+    </div>
+
+    <!-- <link rel="javascript" href="index.js"> -->
+    <script src="week2/scripts/index.js"></script>
+</body>
+
+</html>
