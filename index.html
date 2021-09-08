@@ -10,7 +10,8 @@
 
     <!-- -------- Following line links page to the icon ------->
     <link rel="icon" href="https://cdn.pixabay.com/photo/2020/08/22/21/55/computer-5509452_1280.png">
-
+    <!-- Following line links page to sound -->
+    <link rel="sound" href="images/billiard3.mp3" id="sound">
     <link rel="background" href="images/background.jpg">
     <!-- Following line imports stylesheet for the eye with password -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
@@ -88,22 +89,21 @@
         <form>
             <label id="target" for="Username">Username</label>
             <input type="text" id="Username" placeholder="Enter Username...">
-
             <label id="target" for="Password">Password (8 characters minimum)</label>
-            <input type="password" id="password" placeholder="Enter Password..." minlength="8" required>
-            <!-- Following code for the eye -->
-            <!-- <i class="far fa-eye" id="togglePassword"></i> -->
+            <div class="password">
+                <input type="password" value="" id="password" placeholder="Enter Password..." minlength="8" required>
+                <!-- Following code for the eye -->
+                <i class="far fa-eye" id="togglePassword"></i>
+            </div>
 
-
-            <label id="target" for="Email">Email</label>
+            <label id=" target" for="Email">Email</label>
             <input type="text" id="email address" placeholder="Enter Email Address...">
             <p id="target">Please select your course</p>
             <div class="radioButtons">
                 <label for="Master Coding">Master Coding</label>
-                <input type="radio" id="Master Coding" name="Master Course" value="Master Coding">
-
+                <input type="radio" id="masterCoding" name="Master Course" value="Master Coding">
                 <label for="Master Cyber">Master Cyber</label>
-                <input type="radio" id="Master Cyber" name="Master Course" value="Master Cyber">
+                <input type="radio" id="masterCyber" name="Master Course" value="Master Cyber">
             </div>
 
             <div class="formButtons">
