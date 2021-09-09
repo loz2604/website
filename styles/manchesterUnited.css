@@ -2,6 +2,7 @@
 
 .background{
     background-size:cover ;
+  
 }
 
 .heading{
@@ -167,25 +168,30 @@ button:hover{
     align-items: center;
     font-size:x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* padding:10px; */
+    padding-left:10px;
 }
 
 #hideShow{
     margin-left:50px;
+    margin-right: 10px;
     cursor: pointer;
     /* margin-top: 20px;
     margin-bottom: 20px; */
 }
-
+.images{
+    display:flex;
+    justify-content: center;
+}
 #image1{
-    margin-left: 140px;
+    /* margin-left: 140px; */
     width:80%;
     margin-bottom: 50px;
+    
 }
 
 #image2{
-    margin-left:260px;
     margin-bottom: 50px;
+    width:80%;
     animation:shake 0.7s;
     animation-iteration-count: infinite;
 }
