@@ -34,21 +34,33 @@ function changeText(text) {
     document.getElementById("text").innerHTML = text;
 }
 
-hideShow.addEventListener("click", () => {
-    if (image1.style.display == "none") {
-        image1.style.display = "block";
-        hideShow.textContent = "hide";
-        image2.style.display = "none";
-        changeText("This is the best view in the world. You may, however, not agree. If this is the case, please click the button.");
-    } else {
-        image1.style.display = "none";
-        hideShow.textContent = "show";
-        image2.style.display = "block";
-        changeText("Click again if you change your mind.");
-        // text.innerHTML = "Hello";
+// This is when I had a button to click instaed of just on the image
+// hideShow.addEventListener("click", () => {
+//     if (image1.style.display == "none") {
+//         image1.style.display = "block";
+//         hideShow.textContent = "hide";
+//         image2.style.display = "none";
+//         changeText("This is the best view in the world. You may, however, not agree. If this is the case, please click the button.");
+//     } else {
+//         image1.style.display = "none";
+//         hideShow.textContent = "show";
+//         image2.style.display = "block";
+//         changeText("Click again if you change your mind, or when your eyes start going funny!");
+//         // text.innerHTML = "Hello";
 
 
-    }
+//     }
 
+// });
+
+image2.addEventListener("click", () => {
+    image1.style.display = "block";
+    image2.style.display = "none";
+    changeText("This is the best view in the world. You may, however, not agree. If this is the case, please click the button.");
 });
 
+image1.addEventListener("click", () => {
+    image1.style.display = "none";
+    image2.style.display = "block";
+    changeText("Click again if you change your mind, or when your eyes start going funny!");
+});

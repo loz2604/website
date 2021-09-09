@@ -164,7 +164,7 @@ button:hover{
     margin: 50px;
     background-color: whitesmoke;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size:x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -172,10 +172,9 @@ button:hover{
 
 }
 .text{
- 
     margin:10px;
 }
-.showHide{
+/* .showHide{
   
     margin:10px;
 }
@@ -184,7 +183,7 @@ button:hover{
     margin:10px;
     cursor: pointer;
   
-}
+} */
 .images{
     display:flex;
     justify-content: center;
@@ -193,12 +192,14 @@ button:hover{
     /* margin-left: 140px; */
     width:80%;
     margin-bottom: 50px;
+    cursor: pointer;
     
 }
 
 #image2{
     margin-bottom: 50px;
     width:80%;
+    cursor: pointer;
     animation:shake 0.7s;
     animation-iteration-count: infinite;
 }
