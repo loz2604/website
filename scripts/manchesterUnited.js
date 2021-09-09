@@ -45,7 +45,7 @@ function changeText(text) {
 //         image1.style.display = "none";
 //         hideShow.textContent = "show";
 //         image2.style.display = "block";
-//         changeText("Click again if you change your mind, or when your eyes start going funny!");
+//         changeText("Click again if you change your min d, or when your eyes start going funny!");
 //         // text.innerHTML = "Hello";
 
 
@@ -56,7 +56,7 @@ function changeText(text) {
 image2.addEventListener("click", () => {
     image1.style.display = "block";
     image2.style.display = "none";
-    changeText("This is the best view in the world. You may, however, not agree. If this is the case, please click the button.");
+    changeText("This is the best view in the world. You may, however, not agree. If this is the case, please click the image.");
 });
 
 image1.addEventListener("click", () => {
@@ -64,3 +64,4 @@ image1.addEventListener("click", () => {
     image2.style.display = "block";
     changeText("Click again if you change your mind, or when your eyes start going funny!");
 });
+

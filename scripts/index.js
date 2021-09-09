@@ -45,21 +45,22 @@
 
 
 const password = document.getElementById("password");
-const eye = document.getElementsById("togglePassword.far.fa-eye");
+const eye = document.getElementById("togglePassword");
 
 eye.addEventListener("click", () => {
-    if (password.type === "password") {
+
+    if (password.type == "password") {
         password.type = "text";
-        password.getElementById("password").type = "text";
+        console.log("hello");
     } else {
         password.type = "password";
     }
 
 });
 
-const poolButton = document.getElementsByClassName("button2");
-let sound = document.getElementById("sound");
+// const poolButton = document.getElementsByClassName("button2");
+// let sound = document.getElementById("sound");
 
-poolButton.addEventListener("click", () => {
-    sound.play();
-});
+// poolButton.addEventListener("click", () => {
+//     sound.play();
+// });
