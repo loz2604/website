@@ -12,37 +12,17 @@
 
 // }
 
+let sound = document.getElementById("poolHit");
+const home = document.getElementById("button1");
+const pool = document.getElementById("button2");
+const manU = document.getElementById("button3");
 
-// const togglePassword = document.getElementById("togglePassword");
-// const password = document.getElementById("password");
-
-// togglePassword.addEventListener("click", () => {
-//     password.input.type = "text";
-
-// });
-
-// function toggleVisibility() {
-//     let password = document.getElementById("clickableEye");
-//     if (password.type === "password") {
-//         password.type = "text";
-//     } else {
-//         password.type = "password";
-//     }
-// };
-
-// const togglePassword = document.querySelector('#togglePassword');
-// const password = document.querySelector('#password');
-
-// togglePassword.addEventListener('click', function (e) {
-//     // toggle the type attribute
-//     const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-//     password.setAttribute('type', type);
-//     // toggle the eye / eye slash icon
-//     //     this.classList.toggle('far fa-eye');
-//     // });
-
-// });
-
+pool.addEventListener("click", () => {
+    sound.pause();
+    sound.currentTime = 0;
+    sound.play();
+    console.log("hello");
+});
 
 const password = document.getElementById("password");
 const eye = document.getElementById("togglePassword");

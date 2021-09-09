@@ -24,6 +24,18 @@
 //     }
 
 // });
+let sound = document.getElementById("poolHit");
+const home = document.getElementById("button1");
+const pool = document.getElementById("button2");
+const manU = document.getElementById("button3");
+
+
+pool.addEventListener("click", () => {
+    sound.pause();
+    sound.currentTime = 0;
+    sound.play();
+});
+
 
 const image1 = document.getElementById("image1");
 const hideShow = document.getElementById("hideShow");
