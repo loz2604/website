@@ -44,7 +44,7 @@ hideShow.addEventListener("click", () => {
         image1.style.display = "none";
         hideShow.textContent = "show";
         image2.style.display = "block";
-        changeText("Click show if you change your mind.");
+        changeText("Click again if you change your mind.");
         // text.innerHTML = "Hello";
 
 
