@@ -57,12 +57,9 @@ function changeText(text) {
 //         image1.style.display = "none";
 //         hideShow.textContent = "show";
 //         image2.style.display = "block";
-//         changeText("Click again if you change your min d, or when your eyes start going funny!");
+//         changeText("Click again if you change your mind, or when your eyes start going funny!");
 //         // text.innerHTML = "Hello";
-
-
 //     }
-
 // });
 
 image2.addEventListener("click", () => {
